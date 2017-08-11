@@ -12,7 +12,12 @@ Implemented using the SpringBoot Framework.
 Restful Controllers were used, one for account operations and the other for atm operations.
 A H2 in memory database was used to keep track of all transactions performed.
 The Jacoco Plug-in is used to produce a sonar output.
-Suitable Junit tests were used to provide a high level of code coverage (See SonarScanOutput.JPG) 
+Suitable Junit tests were used to provide a high level of code coverage (See SonarScanOutput.JPG)
+
+Future TODO's:
+In production Https should be used, with an OAuth or Token based security for all interaction using the spring security layer.
+A logging framework should be added with all instances of the ATM's logs being pushed to a central location for operational support.
+Addition of a feature to print all transactions performed on an account for a given period of time.
 
 Testing:
 Steps to Test the application once its running, also see "Teller Service Tests.postman_collection.json" if you want run the test via a postman collection:
@@ -54,6 +59,3 @@ mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login="THIS KEY W
 
 Next navigate to the this location on your browser:
 http://localhost:9000
-
-
-
