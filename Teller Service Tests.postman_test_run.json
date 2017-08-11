@@ -1,0 +1,440 @@
+{
+	"id": "9a13e5ed-7edf-4303-93db-a1928d3b2e16",
+	"name": "Teller Service Tests",
+	"allTests": [],
+	"timestamp": "2017-08-10T23:47:23.362Z",
+	"collection_id": "85e51958-e99f-f5f0-726d-11b0a9b279e0",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "no-environment",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "85e51958-e99f-f5f0-726d-11b0a9b279e0",
+		"name": "Teller Service Tests",
+		"description": "This collect will execute the test scenarios as document in the coding challenge brief.",
+		"order": [
+			"16c98566-1c0b-9777-0357-b9762424f7f9",
+			"847005c9-56cd-71a3-a99f-250671f3eac4",
+			"53c01395-fa4a-e999-8455-5c1dd4937b32",
+			"67a19454-8c0d-9782-f694-43c2ec53aae6",
+			"8e27e6f7-7d7d-e6c0-f2fb-85c1f12a890d",
+			"d33077d7-225a-d404-65ce-ca6be6ef4278"
+		],
+		"folders": [],
+		"folders_order": [],
+		"timestamp": 1502407259563,
+		"synced": false,
+		"remote_id": 0,
+		"owner": "1950488",
+		"sharedWithTeam": false,
+		"subscribed": false,
+		"remoteLink": "",
+		"remoteLinkUpdatedAt": null,
+		"public": false,
+		"createdAt": 1502407259563,
+		"updatedAt": 1502408513807,
+		"write": true,
+		"published": false,
+		"favorite": true,
+		"permissions": {},
+		"syncedPermissions": {}
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "http://localhost:8080/health",
+			"id": "16c98566-1c0b-9777-0357-b9762424f7f9",
+			"url": "http://localhost:8080/health",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"184"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			],
+			"time": "184",
+			"totalRequestTime": "184",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:8080/account/12345678/1234/checkBalance",
+			"id": "847005c9-56cd-71a3-a99f-250671f3eac4",
+			"url": "http://localhost:8080/account/12345678/1234/checkBalance",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"141"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			],
+			"time": "141",
+			"totalRequestTime": "141",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:8080/account/12345678/1234/withdraw/100/1",
+			"id": "53c01395-fa4a-e999-8455-5c1dd4937b32",
+			"url": "http://localhost:8080/account/12345678/1234/withdraw/100/1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"27"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			],
+			"time": "27",
+			"totalRequestTime": "27",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:8080/account/87654321/4321/withdraw/10/1",
+			"id": "67a19454-8c0d-9782-f694-43c2ec53aae6",
+			"url": "http://localhost:8080/account/87654321/4321/withdraw/10/1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"12"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			],
+			"time": "12",
+			"totalRequestTime": "12",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:8080/account/56784321/1245/withdraw/10/1",
+			"id": "8e27e6f7-7d7d-e6c0-f2fb-85c1f12a890d",
+			"url": "http://localhost:8080/account/56784321/1245/withdraw/10/1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"10"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			],
+			"time": "10",
+			"totalRequestTime": "10",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:8080/account/56784321/1245/checkBalance",
+			"id": "d33077d7-225a-d404-65ce-ca6be6ef4278",
+			"url": "http://localhost:8080/account/56784321/1245/checkBalance",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"9"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			],
+			"time": "9",
+			"totalRequestTime": "9",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 12,
+	"totalFail": 0,
+	"totalTime": 383,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "http://localhost:8080/health",
+			"id": "16c98566-1c0b-9777-0357-b9762424f7f9",
+			"url": "http://localhost:8080/health",
+			"time": "2017-08-10T23:47:23.362Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "http://localhost:8080/account/12345678/1234/checkBalance",
+			"id": "847005c9-56cd-71a3-a99f-250671f3eac4",
+			"url": "http://localhost:8080/account/12345678/1234/checkBalance",
+			"time": "2017-08-10T23:47:23.362Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "http://localhost:8080/account/12345678/1234/withdraw/100/1",
+			"id": "53c01395-fa4a-e999-8455-5c1dd4937b32",
+			"url": "http://localhost:8080/account/12345678/1234/withdraw/100/1",
+			"time": "2017-08-10T23:47:23.362Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "http://localhost:8080/account/87654321/4321/withdraw/10/1",
+			"id": "67a19454-8c0d-9782-f694-43c2ec53aae6",
+			"url": "http://localhost:8080/account/87654321/4321/withdraw/10/1",
+			"time": "2017-08-10T23:47:23.362Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "http://localhost:8080/account/56784321/1245/withdraw/10/1",
+			"id": "8e27e6f7-7d7d-e6c0-f2fb-85c1f12a890d",
+			"url": "http://localhost:8080/account/56784321/1245/withdraw/10/1",
+			"time": "2017-08-10T23:47:23.362Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "http://localhost:8080/account/56784321/1245/checkBalance",
+			"id": "d33077d7-225a-d404-65ce-ca6be6ef4278",
+			"url": "http://localhost:8080/account/56784321/1245/checkBalance",
+			"time": "2017-08-10T23:47:23.362Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}
